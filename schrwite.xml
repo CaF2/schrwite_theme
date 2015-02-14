@@ -1,0 +1,65 @@
+<!--
+    Copyright (c) 2015 Florian Evaldsson <florian.evaldsson@telia.com>
+
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<style-scheme name="Schrwite" id="schrwite" version="1.0">
+  <author>Florian Evaldsson</author>
+  <description>Schrwite scheme, is a scite theme for gtksourceview!</description>
+
+  <style name="draw-spaces"	foreground="#babdb6" />
+  <style name="bracket-match"	foreground="#00007f" bold="true" />
+  <style name="bracket-mismatch"	foreground="#cc0000" bold="true" />
+  <style name="right-margin"	foreground="#000000" background="#000000" />
+  <style name="search-match"	background="#FFFF00" />
+  <style name="def:comment"	foreground="#007f00" />
+  <style name="def:shebang"	foreground="#0000FF" bold="true" />
+  <style name="def:special-char"	foreground="#71006d" />
+  <style name="def:identifier"	foreground="#008A8C" />
+  <style name="def:statement"	foreground="#00007f" bold="true" />
+  <style name="def:type"	foreground="#00007f" bold="true" />
+  <style name="def:preprocessor"	foreground="#7f7f00" />
+  <style name="def:error"	background="#FF0000" bold="true" />
+  <style name="def:warning"	background="#FFFF00" />
+  <style name="def:note"	foreground="#0000FF" background="#FFFF00" bold="true" />
+  <style name="def:underlined"	italic="true" underline="true" />
+  <style name="diff:added-line"	foreground="#008B8B" />
+  <style name="diff:removed-line"	foreground="#6A5ACD" />
+  <style name="diff:changed-line"	foreground="#A020F0" />
+  <style name="diff:special-case"	foreground="#FF00FF" />
+  <style name="diff:location"	foreground="#A52A2A" bold="true" />
+  <style name="diff:diff-file"	foreground="#2E8B57" bold="true" />
+  <style name="xml:tags"	foreground="#008A8C" />
+  <style name="xml:attribute-name"	foreground="#4aa5af" />
+  <style name="xml:namespace"	foreground="#2E8B57" bold="true" />
+  <style name="js:object"	foreground="#2E8B57" bold="true" />
+  <style name="js:constructors"	foreground="#008B8B" />
+  <style name="latex:display-math"	foreground="#6A5ACD" />
+  <style name="latex:command"	foreground="#2E8B57" bold="true" />
+  <style name="latex:include"	foreground="#A020F0" />
+  <style name="sh:variable"	foreground="#6A5ACD" />
+  <style name="Others"	foreground="#2E8B57" bold="true" />
+  <style name="Others 2"	foreground="#008B8B" />
+  <style name="Others 3"	foreground="#6A5ACD" />
+  <style name="character"	foreground="#7f007f" />
+  <style name="string"	foreground="#7f007f" />
+  <style name="def:constant"	foreground="#007f7f" />
+  <style name="c:string"	foreground="#7f007f" />
+  <style name="c:char"	foreground="#7f007f" />
+  <style name="def:doc-comment-element"	foreground="#204a87" italic="true" />
+  <style name="current-line"	background="#dfdfdf" />
+  <style name="doc-comment"	foreground="#73d216" />
+  <style name="makefile:targets"	foreground="#cc0000" />
+  <style name="makefile:variable"	foreground="#00007f" />
+  <style name="makefile:assignment-lhs"	foreground="#00007f" />
+  <style name="vhdl:string"	foreground="#7f007f" />
+  <style name="c:included-file"	foreground="#8f5902" />
+  <style name="xml:element-name"	foreground="#0000ff" />
+  <style name="attribute-name"	foreground="#26b1d2" />
+  <style name="xml:attribute-value"	foreground="#7f007f" />
+</style-scheme>
