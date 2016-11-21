@@ -16,4 +16,5 @@ FILE := $(NAME).xml
 INSTALL_PATH := ~/.local/share/gtksourceview-3.0/styles
 
 install:
+	mkdir -p $(INSTALL_PATH)
 	cp $(FILE) $(INSTALL_PATH)/$(FILE)
