@@ -13,11 +13,11 @@ NAME = schrwite
 
 FILE = $(NAME).xml
 
-INSTALL_PATHS = ~/.local/share/gtksourceview-3.0/styles ~/.local/share/gtksourceview-4/styles
+INSTALL_PATHS = gtksourceview-3.0/styles gtksourceview-4/styles gtksourceview-5/styles
 
 all: $(INSTALL_PATHS)
 install: $(INSTALL_PATHS)
 	
 $(INSTALL_PATHS):
-	mkdir -p $@
-	cp $(FILE) $@/$(FILE)
+	mkdir -p ~/.local/share/$@
+	cp $@/$(FILE) ~/.local/share/$@/$(FILE)
