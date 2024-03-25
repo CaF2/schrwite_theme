@@ -1,5 +1,5 @@
 #####################
-# Copyright (c) 2015 Florian Evaldsson <florian.evaldsson@telia.com>
+# Copyright (c) 2015,2024 Florian Evaldsson <florian.evaldsson@telia.com>
 #
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -13,7 +13,7 @@ NAME = schrwite
 
 FILE = $(NAME).xml
 
-INSTALL_PATHS = gtksourceview-3.0/styles gtksourceview-4/styles gtksourceview-5/styles
+INSTALL_PATHS = gtksourceview-3.0/styles gtksourceview-4/styles gtksourceview-5/styles gedit/styles
 
 all: $(INSTALL_PATHS)
 install: $(INSTALL_PATHS)
